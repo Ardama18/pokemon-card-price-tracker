@@ -2,14 +2,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "installCommand": "npm install && npx prisma generate",
-  "framework": "nextjs",
-  "env": {
-    "POKEMON_TCG_API_KEY": "@pokemon_tcg_api_key",
-    "POKEMON_PRICE_TRACKER_API_KEY": "@pokemon_price_tracker_api_key"
-  },
-  "build": {
-    "env": {
-      "DATABASE_URL": "@database_url"
-    }
-  }
+  "framework": "nextjs"
 }
